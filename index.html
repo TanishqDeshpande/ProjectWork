@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <title>Blood Donors Clinic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <img class="logo" src="freeLogo.jpeg"> 
+            <ul>
+                <li><a class="active" href="H">Home</a></li>
+                <li><a href="A">About us</a></li>
+                <li><a href="C">Contact us</a></li>
+            </ul>
+         </nav>
+         <div class ="welcome">
+             <h1>Together we can</h1>
+             <h4>Giving back through life-changing experiences</h4>
+             <div class="donatenow">
+                 <button class="btn">DONATE NOW</button>
+             </div>
+        </div>
+        <div class="formbox">
+            <div class="buttonbox">
+                <div id="bn"></div>
+                <button type="button" class="togglebtn" onclick="login()" >Log In</button>
+                <button type="button" class="togglebtn" onclick="register()">Register</button>
+            </div>
+      
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id "required>
+                <input type="text" class="input-field" placeholder="Enter Password">
+                <button type="submit" class="submit-btn">Log In</button>
+            </form>
+            <form id="Register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id "required>
+                <input type="email" class="input-field" placeholder="Email Id "required>
+                <input type="text" class="input-field" placeholder="Enter Password">
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+
+        
+    </div>
+    <script>
+        var x=document.getElementById("login");
+        var y=document.getElementById("Register");
+        var z=document.getElementById("bn");
+
+        function register(){
+            x.style.left="-350px";
+            y.style.left="0px";
+            z.style.left="0px";
+        }
+        function login(){
+            x.style.left="0px";
+            y.style.left="450px";
+            z.style.left="0px";
+        }
+    </script>
+</body>
+
+</html>

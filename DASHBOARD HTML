@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="pwstyle.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="left">
+                <img src="man.jpg" alt="user" width="100">
+                <h4>Raj Malhotra</h4>
+                <p>Engineer</p>
+            </div>
+
+            <div class="right">
+
+                <div class="info">
+                   <h3>Information</h3>
+                    <div class="info_data">
+                        <div class="data">
+                             <h4>Email</h4>
+                             <p>rajm908@gmail.com</p>
+                        </div>
+                        <div class="data">
+                           <h4>Phone</h4>
+                           <p>+91-9887673645</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects">
+                     <h3>Projects</h3>
+                  <div class="projects_data">
+                      <div class="data">
+                          <h4>Recent</h4>
+                          <p>lorem ipsum</p>
+                       </div>
+                       <div class="data">
+                           <h4>Most viewed</h4>
+                           <p>lorem ipsum</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+                 
+
+
+    </body>   
+</html>
